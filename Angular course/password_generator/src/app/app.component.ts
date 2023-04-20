@@ -13,7 +13,7 @@ export class AppComponent {
   includeSymbols = false;
   password = '';
 
-  onChangeLength(value: any) {
+  onChangeLength(value: string) {
     const parseValue = parseInt(value)
     console.log("value: ", parseValue);
 
